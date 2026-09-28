@@ -17,16 +17,14 @@ This project presents a research prototype for **AI security incident reporting 
 * **Pairwise Masking**
 * **Additive Secret Sharing**
 * **Fixed-Point Encoding**
-* **Modular Arithmetic over `Z_q`**
+* **Modular Arithmetic over `(Z_q)`**
 * **Explainable AI (SHAP)**
 * **Automated Security Incident Reporting**
 * **Ablation Analysis**
 
-The system is designed to detect potentially compromised AI agents from security-related behavioral indicators while demonstrating how model training updates can be aggregated without directly exposing each client's plaintext update to the aggregation process.
+The system is designed to detect potentially compromised AI agents from security related behavioral indicators while demonstrating how model training updates can be aggregated without directly exposing each client's plaintext update to the aggregation process.
 
 The project also generates an explanation of individual compromise predictions using **SHAP (SHapley Additive exPlanations)** and automatically produces a structured security incident report.
-
-> **Important:** This is a research and educational prototype. It is not intended to provide production-grade cryptographic security.
 
 ---
 
@@ -34,10 +32,10 @@ The project also generates an explanation of individual compromise predictions u
 
 The main objective of this project is to investigate whether a security monitoring system can combine:
 
-1. **Machine learning** for compromise detection,
-2. **Federated learning** for distributed model training,
-3. **Secure aggregation** for protecting individual client updates,
-4. **Explainable AI** for interpreting compromise predictions, and
+1. **Machine learning** for compromise detection
+2. **Federated learning** for distributed model training
+3. **Secure aggregation** for protecting individual client updates
+4. **Explainable AI** for interpreting compromise predictions
 5. **Automated incident reporting** for communicating security findings.
 
 The system is designed around the following conceptual pipeline:
@@ -63,9 +61,9 @@ Security Behaviour Data
 |                       |
 | Pairwise Masking      |
 |        +              |
-| Secret Sharing       |
+| Secret Sharing        |
 |        +              |
-| Modular Arithmetic   |
+| Modular Arithmetic    |
 +-----------------------+
           |
           v
