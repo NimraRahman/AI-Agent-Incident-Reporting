@@ -325,7 +325,7 @@ This allows the system to represent model updates as integers while preserving a
 
 ---
 
-# 9. What is \(\mathbb{Z}_q\)?
+# 9. What is Z_q?
 
 The secure aggregation implementation uses modular arithmetic over:
 
