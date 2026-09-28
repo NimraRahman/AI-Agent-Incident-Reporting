@@ -1,9 +1,5 @@
-# AI-Agent-Incident-Reporting
+# AI Agent Incident Reporting Prototype
 Research prototype for privacy-preserving and explainable AI-agent security incident reporting integrated with Federated Learning along with Additive homomorphic secret-sharing combined with pairwise masking. 
-
-
-AGENT INCIDENT REPORTING Prototype
-=============================
 
 Author: Nimra Rahman
 Paper connection: Beyond Predictable Paths: Redefining AI Security Incident Reporting for Agents
