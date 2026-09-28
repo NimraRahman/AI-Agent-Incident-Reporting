@@ -1,4 +1,4 @@
-# AI Agent Incident Reporting Prototype
+# FEDERATED XAI SECURE AI-AGENT INCIDENT REPORTING PROTOTYPE
 Research prototype for privacy-preserving and explainable AI-agent security incident reporting integrated with Federated Learning along with Additive homomorphic secret-sharing combined with pairwise masking. 
 
 Author: Nimra Rahman
