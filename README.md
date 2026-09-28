@@ -1,9 +1,11 @@
 # Federated XAI AI-Agent Incident Reporting Prototype
 
-Author: Nimra Rahman
+A research prototype that combines federated learning, secure aggregation, and explainable AI (SHAP) to detect, explain, and report potential security incidents involving AI agents.
 
-Research connection:
-"Beyond Predictable Paths: Redefining AI Security Incident Reporting for Agents"
+**Author:** Nimra Rahman
+
+**Research Connection:**  
+*Beyond Predictable Paths: Redefining AI Security Incident Reporting for Agents*  
 arXiv:2609.24515
 
 ## Overview
