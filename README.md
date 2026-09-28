@@ -333,7 +333,7 @@ $$
 \mathbb{Z}_q
 $$
 
-In simple terms, \(\mathbb{Z}_q\) represents the integers:
+In simple terms, Z_q represents the integers:
 
 $$
 \{0,1,2,\ldots,q-1\}
@@ -385,7 +385,7 @@ $$
 
 This is a large prime modulus.
 
-Because the modulus is prime, \(\mathbb{Z}_Q\) can also be treated as a finite field, commonly written as:
+Because the modulus is prime, Z_q can also be treated as a finite field, commonly written as:
 
 $$
 \mathbb{F}_Q
@@ -395,7 +395,7 @@ The implementation primarily relies on modular addition and subtraction for secu
 
 A precise description for this project is:
 
-> Model updates are converted to fixed-point integers and represented using modular arithmetic over \(\mathbb{Z}_q\), where aggregation is performed modulo a large prime \(q\).
+> Model updates are converted to fixed-point integers and represented using modular arithmetic over Z_q, where aggregation is performed modulo a large prime \(q\).
 
 ---
 
@@ -1192,7 +1192,7 @@ The implementation demonstrates secure aggregation techniques rather than encryp
 
 ---
 
-# 35. Important Interpretation of \(\mathbb{Z}_q\)
+# 35. Important Interpretation of Z_q
 
 The finite field or modular arithmetic itself is not what provides the complete privacy guarantee.
 
@@ -1223,7 +1223,7 @@ Secure aggregation
 Produces the aggregate
 ```
 
-Therefore, the security properties come from the overall protocol and its threat model, not simply from using \(\mathbb{Z}_q\).
+Therefore, the security properties come from the overall protocol and its threat model, not simply from using Z_q.
 
 ---
 
@@ -1491,7 +1491,7 @@ Instead of:
 
 Use:
 
-> **"Model updates are converted to fixed-point integers and represented using modular arithmetic over \(\mathbb{Z}_q\), with aggregation performed modulo a large prime \(q\)."**
+> **"Model updates are converted to fixed-point integers and represented using modular arithmetic over Z_q, with aggregation performed modulo a large prime \(q\)."**
 
 You can also write:
 
