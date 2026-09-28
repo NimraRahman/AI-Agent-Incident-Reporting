@@ -17,7 +17,7 @@ This project presents a research prototype for **AI security incident reporting 
 * **Pairwise Masking**
 * **Additive Secret Sharing**
 * **Fixed-Point Encoding**
-* **Modular Arithmetic over \(\mathbb{Z}_q\)**
+* **Modular Arithmetic over `Z_q`**
 * **Explainable AI (SHAP)**
 * **Automated Security Incident Reporting**
 * **Ablation Analysis**
