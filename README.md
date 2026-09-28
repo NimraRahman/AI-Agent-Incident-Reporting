@@ -1,4 +1,10 @@
-# Federated XAI Secure AI-Agent Incident Reporting
+# Federated XAI AI-Agent Incident Reporting Prototype
+
+Author: Nimra Rahman
+
+Research connection:
+"Beyond Predictable Paths: Redefining AI Security Incident Reporting for Agents"
+arXiv:2609.24515
 
 ## Overview
 
