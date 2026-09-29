@@ -495,7 +495,7 @@ def evaluate_model(
 
 
 # ============================================================
-# 11. FIXED-POINT ENCODING
+# 11. FIXED POINT ENCODING
 # ============================================================
 
 def encode_fixed_point(vector):
@@ -723,7 +723,7 @@ def secure_aggregate(updates):
     vector_length = len(updates[0])
 
     # --------------------------------------------------------
-    # Step 1: encode plaintext updates
+    # Step 1: Encode plaintext updates
     # --------------------------------------------------------
 
     encoded_updates = [
@@ -732,7 +732,7 @@ def secure_aggregate(updates):
     ]
 
     # --------------------------------------------------------
-    # Step 2: create pairwise masks
+    # Step 2: Create pairwise masks
     # --------------------------------------------------------
 
     masks, pairwise_values = create_pairwise_masks(
@@ -742,7 +742,7 @@ def secure_aggregate(updates):
     )
 
     # --------------------------------------------------------
-    # Step 3: apply masks
+    # Step 3: Apply masks
     # --------------------------------------------------------
 
     masked_updates = []
@@ -759,7 +759,7 @@ def secure_aggregate(updates):
         )
 
     # --------------------------------------------------------
-    # Step 4: additive secret sharing
+    # Step 4: Additive secret sharing
     # --------------------------------------------------------
 
     all_client_shares = []
@@ -777,7 +777,7 @@ def secure_aggregate(updates):
         )
 
     # --------------------------------------------------------
-    # Step 5: reconstruct server-visible masked updates
+    # Step 5: Reconstruct server-visible masked updates
     # --------------------------------------------------------
 
     reconstructed_masked_updates = []
@@ -795,7 +795,7 @@ def secure_aggregate(updates):
         )
 
     # --------------------------------------------------------
-    # Step 6: server aggregates masked values
+    # Step 6: Server aggregates masked values
     # --------------------------------------------------------
 
     server_aggregate = np.zeros(
@@ -810,7 +810,7 @@ def secure_aggregate(updates):
         ) % Q
 
     # --------------------------------------------------------
-    # Step 7: plaintext aggregate
+    # Step 7: Plaintext aggregate
     # --------------------------------------------------------
 
     plaintext_aggregate = np.zeros(
@@ -825,7 +825,7 @@ def secure_aggregate(updates):
         ) % Q
 
     # --------------------------------------------------------
-    # Step 8: verify aggregate correctness
+    # Step 8: Verify aggregate correctness
     # --------------------------------------------------------
 
     aggregate_difference = (
@@ -839,7 +839,7 @@ def secure_aggregate(updates):
     )
 
     # --------------------------------------------------------
-    # Step 9: verify pairwise masks cancel
+    # Step 9: Verify pairwise masks cancel
     # --------------------------------------------------------
 
     total_masks = np.zeros(
@@ -859,7 +859,7 @@ def secure_aggregate(updates):
     )
 
     # --------------------------------------------------------
-    # Step 10: verify secret-share reconstruction
+    # Step 10: Verify secret-share reconstruction
     # --------------------------------------------------------
 
     share_reconstruction_error = 0
@@ -887,7 +887,7 @@ def secure_aggregate(updates):
         )
 
     # --------------------------------------------------------
-    # Step 11: decode aggregate
+    # Step 11: Decode aggregate
     # --------------------------------------------------------
 
     aggregate_update = decode_fixed_point(
@@ -1468,7 +1468,7 @@ def create_incident_report(
     )
 
     # --------------------------------------------------------
-    # Human-readable report
+    # Human readable report
     # --------------------------------------------------------
 
     text_lines = []
@@ -1958,7 +1958,7 @@ def save_security_verification(
 
 
 # ============================================================
-# 24. ABLATION STUDY
+# 24. ABLATION 
 # ============================================================
 
 def create_ablation_results(
