@@ -1,0 +1,22 @@
+======================================================================
+AUTOMATED AI-AGENT SECURITY INCIDENT REPORT
+======================================================================
+Compromise probability: 0.3468
+Severity: MEDIUM
+
+Top contributing security indicators:
+
+1. prompt_injection_score | value=0.1243 | SHAP=-0.107864 | effect=decreased
+2. tool_abuse_score | value=0.9925 | SHAP=0.104141 | effect=increased
+3. data_exfiltration_score | value=0.2103 | SHAP=-0.056503 | effect=decreased
+4. credential_access_score | value=0.3584 | SHAP=-0.054048 | effect=decreased
+5. privilege_escalation_score | value=0.1336 | SHAP=-0.050526 | effect=decreased
+
+Interpretation:
+The SHAP values describe how the model's prediction changes relative to its baseline.
+They should not be interpreted as causal proof that a particular security event caused compromise.
+
+Privacy/security note:
+Secure aggregation protects federated training updates from direct server-side inspection.
+It does not automatically make the final incident report or SHAP explanation private.
+Additional access control, privacy mechanisms, or secure explanation protocols may be required.
