@@ -1,0 +1,10 @@
+Library requirement to run the codes are:
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+torch
+shap
+
+# pip install -r requirements.txt
