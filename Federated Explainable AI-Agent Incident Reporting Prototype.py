@@ -1,13 +1,5 @@
 # ============================================================
-# FEDERATED XAI SECURE AI-AGENT INCIDENT REPORTING
-# ============================================================
-
-
-#
-# Secure aggregation protects model updates.
-# SHAP explains model predictions.
-# These are separate security/privacy and interpretability mechanisms.
-#
+# Federated Explainable AI-Agent Incident Reporting - Experiment A
 # ============================================================
 
 import os
