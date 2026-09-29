@@ -1,5 +1,5 @@
 # ============================================================
-# Federated Explainable AI-Agent Incident Reporting - Experiment A
+# Federated Explainable AI Agent Incident Reporting - Experiment A
 # ============================================================
 
 import os
