@@ -65,7 +65,7 @@ if torch.cuda.is_available():
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 print("=" * 70)
-print("FEDERATED XAI SECURE AI-AGENT INCIDENT REPORTING")
+print("FEDERATED Explainable AI AGENT INCIDENT REPORTING - Experiment B")
 print("=" * 70)
 print(f"Device: {DEVICE}")
 print(f"Clients: {NUM_CLIENTS}")
