@@ -1612,3 +1612,6 @@ The project demonstrates that these components can be combined into a unified re
 ## Final Note
 
 This repository represents a **research prototype rather than a production security system**. Experimental results should be interpreted in the context of the synthetic dataset, simulated federated clients, simplified secure-aggregation protocol, selected model architecture, and configured experimental parameters.
+
+# IMPORTANT:
+This is a research/teaching implementation. It is NOT a production cryptographic protocol.
