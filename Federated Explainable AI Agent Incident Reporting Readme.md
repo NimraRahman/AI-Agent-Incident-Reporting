@@ -1,4 +1,4 @@
-# Federated Explainable AI-Agent Incident Reporting Prototype
+# Federated Explainable AI Agent Incident Reporting Prototype
 
 A research prototype that combines federated learning, secure aggregation, and explainable AI (SHAP) to detect, explain, and report potential security incidents involving AI agents.
 
