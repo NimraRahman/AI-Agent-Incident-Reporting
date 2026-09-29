@@ -1,31 +1,8 @@
 # ============================================================
 # FEDERATED XAI SECURE AI-AGENT INCIDENT REPORTING
 # ============================================================
-#
-# Complete research/thesis demo:
-#
-# 1. Synthetic AI-agent security incident data
-# 2. Multiple federated clients
-# 3. Local neural-network training
-# 4. FedAvg
-# 5. Fixed-point encoding in a finite field
-# 6. Pairwise-masked secure aggregation
-# 7. Additive secret sharing
-# 8. SHAP explainability
-# 9. Automated security incident report
-# 10. Secure aggregation correctness verification
-# 11. Plaintext vs server-visible masked updates
-# 12. Ablation:
-#       - Centralized ML
-#       - FedAvg
-#       - FedAvg + Secure Aggregation
-# 13. Training-performance graph
-# 14. SHAP graph
-# 15. Confusion matrix
-#
-# IMPORTANT:
-# This is a research/teaching implementation.
-# It is NOT a production cryptographic protocol.
+
+
 #
 # Secure aggregation protects model updates.
 # SHAP explains model predictions.
