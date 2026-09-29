@@ -49,7 +49,7 @@ Q = 2305843009213693951
 # Fixed-point scaling.
 FIXED_POINT_SCALE = 10**8
 
-OUTPUT_DIR = "outputs_experiment_C"
+OUTPUT_DIR = "outputs_experiment_B"
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
