@@ -1,5 +1,5 @@
 # ============================================================
-# FEDERATED XAI SECURE AI-AGENT INCIDENT REPORTING - EXPERIMENT B
+# FEDERATED EXPLAINABLE AI AGENT INCIDENT REPORTING - EXPERIMENT B
 # ============================================================
 
 import os
