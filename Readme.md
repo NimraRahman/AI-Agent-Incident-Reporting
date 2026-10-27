@@ -1,4 +1,4 @@
-# FAIR: Federated Explainable AI Agent Incident Reporting - Prototype
+# FAIR: Federated Explainable AI Agent for Incident Reporting - Prototype
 
 A research prototype that combines federated learning, secure aggregation, and explainable AI (SHAP) to detect, explain, and report potential security incidents involving AI agents.
 
