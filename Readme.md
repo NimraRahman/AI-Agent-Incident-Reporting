@@ -1,4 +1,4 @@
-# FAIR: Federated Explainable AI Agent for Incident Reporting - Prototype
+# FEMAIR: Federated Explainable Model for AI Incident Reporting
 
 A research prototype that combines federated learning, secure aggregation, and explainable AI (SHAP) to detect, explain, and report potential security incidents involving AI agents.
 
